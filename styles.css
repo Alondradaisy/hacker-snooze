@@ -1,0 +1,15 @@
+@media only scrreen and (max-width: 480px) {
+
+}
+
+img {
+    width: 35px;
+}
+
+#logo {
+    margin: 20px;
+}
+
+.navbar navbar-dark bg-dark {
+    background-color: orange;
+}
