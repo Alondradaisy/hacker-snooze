@@ -1,5 +1,11 @@
-@media only scrreen and (max-width: 480px) {
+@media only screen and (min-device-width: 375px)
+and (max-device-width: 812px)
+and (-webkit-min-device-pixel-ratio: 3) {
 
+}
+
+body {
+    padding: 40px;
 }
 
 img {
@@ -9,7 +15,17 @@ img {
 #logo {
     margin: 20px;
 }
-
-.navbar navbar-dark bg-dark {
-    background-color: orange;
+.footer {
+    align-content: center;
 }
+
+.more-button {
+    margin-left: 15px;
+}
+.footer {
+    padding: 15px;
+}
+.search-bar {
+    padding: 15px;
+}
+
