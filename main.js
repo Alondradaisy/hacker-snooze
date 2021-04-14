@@ -26,12 +26,12 @@ function getHackerNews() {
             
             function getTheJuice(newsURL) {
                 fetch(newsURL)
-                .then((rawResponse => response.json()) 
+                .then(rawResponse => rawResponse.json()) 
                 .then(function (newsURL) {
                     makeNewsApp(newsURL) 
                     console.log(newsURL)
                 }
-                ))
+                )
             }
             function makeNewsApp(newsURL) {
                 let html = `<div class='container'> 
