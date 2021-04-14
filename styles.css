@@ -7,6 +7,9 @@ and (-webkit-min-device-pixel-ratio: 3) {
 body {
     padding: 40px;
 }
+h1 {
+    color: #FB6518;
+}
 
 img {
     width: 35px;
@@ -17,14 +20,15 @@ img {
 }
 .footer {
     align-content: center;
+    padding: 15px;
 }
 
 .more-button {
     margin-left: 15px;
+    margin-top: 15px;
+
 }
-.footer {
-    padding: 15px;
-}
+
 .search-bar {
     padding: 15px;
 }
